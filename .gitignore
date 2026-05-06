@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+database/*.db
+database/files/*.bin
+!database/files/.gitkeep
+
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+.venv/
+node_modules/
+__pycache__/
+dist/
+
+.env
