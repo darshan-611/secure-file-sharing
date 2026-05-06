@@ -51,8 +51,8 @@ async def upload_file(
 
     settings = get_settings()
 
-    # Correct frontend share link
-    link = f"{settings.frontend_url}/share/{shared.token}"
+    # Correct frontend download link
+    link = f"{settings.frontend_url}/download/{shared.token}"
 
     return {
         "token": shared.token,
